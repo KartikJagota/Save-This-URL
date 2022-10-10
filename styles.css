@@ -1,0 +1,81 @@
+body {
+  padding: 8px;
+  margin: 0;
+  margin-top: 8px;
+  margin-left: 5px;
+  min-width: 400px;
+}
+
+button {
+  margin: 5px;
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+li {
+  margin: 8px;
+}
+
+#input-el {
+  width: 100%;
+  box-sizing: border-box;
+  height: 35px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 2px solid #00FFD1;
+  padding-left: 10px;
+}
+
+#save-el {
+  margin-left: 0;
+}
+
+  #save-el, #tab-el {
+    border-radius: 6px;
+    color: white;
+    background-color: #6FEDD6;
+    border: 1px solid #00FFD1;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: italic;
+    cursor: pointer;
+}
+
+#save-el:hover, #tab-el:hover {
+  color: #6FEDD6;
+  background-color: white;
+  border: 1px solid;
+}
+
+  #save-el:active, #tab-el:active {
+    position: relative;
+    top: 1px;
+  }
+
+  #delete-el {
+    border-radius: 6px;
+    color: white;
+    background-color: #DD5353;
+    border: 1px solid ;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: italic;
+    cursor: pointer;
+  }
+
+  #delete-el:hover {
+    color: #DD5353;
+    background-color: white;
+    text-decoration: line-through;
+    border: 1px solid #DD5353;
+  }
+
+  #delete-el:active {
+    position: relative;
+    top: 1px;
+  }
